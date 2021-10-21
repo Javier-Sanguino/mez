@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/all.min.css">
+    <title>Multiservicios España Zambrano</title>
+</head>
+
+<body>
+    <main>
+        <nav class="navbar navbar-expand-sm navbar-dark row mx-0 container-fluid">
+            <div class="logo-box col-sm-4">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/logo.png" alt="Multiservicios España Zambrano Logo" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-sm-7">
+                <ul class="menu-links navbar-nav justify-content-end">
+                    <li class="nav-item"><a href="#" class="nav-link">Acerca de</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Productos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Servicios</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-1">
+                <a href="#" class="btn btn-danger">Contratanos</a>
+            </div>
+        </nav>
+        <section class="home-container my-4 bg-warning back-img">
+            <div class="fondo-color"></div>
+            <div class="description">
+                <h2 class="display-1">Tenemos todo lo que su empresa necesita</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam consectetur soluta nesciunt quae,
+                    excepturi .</p>
+                <button class="btn btn-primary">Saber más</button>
+            </div>
+        </section>
+        <section class="cards-container">
+            <h3 class="display-3 my-3">Nuestros Servicios</h3>
+            <section class="cards-box">
+                <div class="card mantenimiento-card back-img">
+                    <h5>Manteniento maquinaria industrial</h5>
+                    <div class="fondo-animado-card"></div>
+                </div>
+                <div class="card plantacion-card back-img">
+                    <h5>Ornamentación vegetal</h5>
+                    <div class="fondo-animado-card"></div>
+                </div>
+                <div class="card abejas-card back-img">
+                    <h5>Apicultura</h5>
+                    <div class="fondo-animado-card"></div>
+                </div>
+            </section>
+            <div class="btn-mas py-3">
+                <button class="btn btn-secondary btn-sm btn-show" id="btn-show" onclick="showServices()"><i
+                        class="fas fa-chevron-down"></i></button>
+            </div>
+            <section class="secondary-services" id="secondaryServices">
+                <div class="card">1</div>
+                <div class="card">2</div>
+                <div class="card">3</div>
+                <div class="card">4</div>
+                <div class="card">5</div>
+                <div class="card">6</div>
+                <div class="card">7</div>
+                <div class="card">8</div>
+                <div class="btn-less py-3">
+                    <button class="btn btn-secondary btn-sm btn-show" id="btn-show" onclick="showServices()"><i
+                            class="fas fa-chevron-up"></i></button>
+                </div>
+            </section>
+        </section>
+        <section class="about">
+            <h3 class="display-3 text-center">Sobre nosotros</h3>
+            <div class="cards-about-box">
+                <div class="card-about">
+                    <h4>Mision</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptate natus sed sint, aut
+                        porro
+                        quas laudantium esse deserunt veritatis non, laboriosam, ab alias ullam mollitia veniam nesciunt
+                        inventore dolores.</p>
+                </div>
+                <div class="card-about">
+                    <h4>Visión</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptate natus sed sint, aut
+                        porro
+                        quas laudantium esse deserunt veritatis non, laboriosam, ab alias ullam mollitia veniam nesciunt
+                        inventore dolores.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
