@@ -67,7 +67,6 @@ nav {
   padding: 5px 10px;
   position: relative;
   border-radius: 4px;
-  background-color: blueviolet;
 }
 
 .cards-box::-webkit-scrollbar {
@@ -139,7 +138,7 @@ nav {
   margin: 10px 20px;
   padding: 10px 15px;
   min-width: 300px;
-  background-color: blueviolet;
+  color: gray;
 }
 
 @media( min-width: 768px){
