@@ -14,11 +14,11 @@
 
 <body">
     <main>
-        <div class="icon-menu" id="iconMenu" onclick="showMenu()"><i class="fas fa-bars"></i></div>
-        <nav class="navbar navbar-expand-sm row mx-0" id="menu">
+        <nav class="navbar navbar-expand-sm row mx-0 menu-primary" id="menu">
             <div class="logo-box col-sm-3">
                 <a class="" href="#">
-                    <img src="./assets/logo_completo_recortado.png" alt="Multiservicios España Zambrano Logo" class="img-fluid">
+                    <img src="./assets/logo_completo_recortado.png" alt="Multiservicios España Zambrano Logo"
+                        class="img-fluid">
                 </a>
             </div>
             <div class="col-sm-7">
@@ -32,6 +32,14 @@
             <div class="col-sm-2">
                 <a href="#" class="btn btn-danger">Contratanos</a>
             </div>
+        </nav>
+        <div class="icon-menu" id="iconMenu" onclick="showMenu()""><i class="fas fa-bars"></i></div>
+        <nav class="navbar menu-mobile" id="menu-mobile">
+            <div class="nav-item"><a href="#" class="nav-link">Acerca de</a></div>
+            <div class="nav-item"><a href="#" class="nav-link">Contacto</a></div>
+            <div class="nav-item"><a href="#" class="nav-link">Productos</a></div>
+            <div class="nav-item"><a href="#" class="nav-link">Servicios</a></div>
+            <div class="close-icon" id="close-icon" onclick="showMenu()"><i class="fas fa-times"></i></div>
         </nav>
         <section class="home-container back-img">
             <div class="fondo-color"></div>
@@ -102,6 +110,6 @@
         </a>
     </main>
     <script src="./js/main.js"></script>
-</body>
+    </body>
 
 </html>
